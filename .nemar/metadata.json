@@ -2,18 +2,35 @@
   "version": "2.0",
   "pipeline_stage": "enriched",
   "title": "Paired Associates Learning: Memory for Word Pairs in Cued Recall",
+  "description": "This dataset comprises intracranial electrophysiological recordings and behavioral data from a paired associates learning task conducted across multiple clinical sites. Participants studied word pairs, performed distractor arithmetic tasks, and completed cued recall tests while neural activity was recorded. The dataset includes monopolar and bipolar iEEG recordings with electrode localization information and standardized voltage scaling across multiple recording systems.",
+  "methods_description": "Participants studied 25 lists of word pairs (6 pairs per list) presented visually for 4000 ms each with 1000 ms interstimulus intervals. Encoding was followed by a distractor arithmetic task and cued recall phase where participants had 5000 ms to vocally recall the paired word when cued with one word from each pair. Intracranial electrophysiological recordings were acquired using multiple systems and referenced to either mastoid (monopolar) or paired electrode schemes (bipolar). MNI and Talairach coordinates are provided for electrode locations.",
   "license": "CC0",
   "dataset_type": "raw",
   "authors": {
     "Haydn G. Herrema": {},
     "Michael J. Kahana": {}
   },
-  "related_identifiers": [
+  "keywords": [
     {
-      "identifier": "10.18112/openneuro.ds005059.v1.0.6",
-      "identifier_type": "DOI",
-      "relation_type": "IsIdenticalTo"
+      "term": "intracranial EEG"
     },
+    {
+      "term": "paired associates learning"
+    },
+    {
+      "term": "memory encoding"
+    },
+    {
+      "term": "cued recall"
+    },
+    {
+      "term": "electrophysiology"
+    },
+    {
+      "term": "word pairs"
+    }
+  ],
+  "related_identifiers": [
     {
       "identifier": "https://github.com/nemarDatasets/on005059",
       "identifier_type": "URL",
@@ -28,6 +45,11 @@
       "identifier": "10.18112/openneuro.ds005059",
       "identifier_type": "DOI",
       "relation_type": "IsVersionOf"
+    },
+    {
+      "identifier": "10.18112/openneuro.ds005059.v1.0.6",
+      "identifier_type": "DOI",
+      "relation_type": "IsDerivedFrom"
     }
   ],
   "funding_references": [
@@ -38,42 +60,21 @@
     }
   ],
   "resource_type_general": "Dataset",
+  "resource_type_specific": "Neuroimaging Dataset",
   "modalities": [
     "beh",
     "ieeg"
   ],
-  "resource_type_specific": "Neuroimaging Dataset",
   "sizes": [
-    "0.0 KB (1 files)"
+    "179.6 GB (285 files)"
   ],
   "formats": [
     ".edf",
     ".json",
     ".md",
     ".tsv",
-    ".txt"
+    ".txt",
+    ".yml"
   ],
-  "description": "This dataset comprises intracranial electrophysiological recordings and behavioral data from a paired associates learning task designed to investigate memory encoding and retrieval processes. Participants studied word pairs, performed distractor arithmetic tasks, and completed cued recall tests across 25 lists per session. The data were collected at eight clinical sites (Hospital of the University of Pennsylvania, Thomas Jefferson University Hospital, Dartmouth-Hitchcock Medical Center, Mayo Clinic, NIH NINDS, Columbia University Hospital, Emory University Hospital, and University of Texas Southwestern Medical Center) as part of a collaborative effort to examine neural correlates of episodic memory.",
-  "methods_description": "Participants performed a paired associates learning task consisting of 25 lists per session. Each list contained three phases: (1) encoding of 6 word pairs presented for 4000 ms each with 1000 ms interstimulus intervals, (2) distractor arithmetic problems, and (3) cued recall where one word from each pair was presented and participants had 5000 ms to vocally recall the paired word. Intracranial EEG recordings were acquired using both monopolar (referenced, typically mastoid) and bipolar electrode configurations. Voltage values were standardized to volts across multiple recording systems.",
-  "keywords": [
-    {
-      "term": "intracranial EEG"
-    },
-    {
-      "term": "episodic memory"
-    },
-    {
-      "term": "paired associates learning"
-    },
-    {
-      "term": "cued recall"
-    },
-    {
-      "term": "memory encoding"
-    },
-    {
-      "term": "electrophysiology"
-    }
-  ],
-  "source_hash": "f71bf0f64e52002d1953727eafba2f6b41917494ffcda693ee23417836a0a9d0"
+  "source_hash": "13ed048caea48321d9cfb2439b745638e505f0197ca7020ee3f7705c8a10a642"
 }
