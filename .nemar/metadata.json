@@ -3,7 +3,7 @@
   "pipeline_stage": "enriched",
   "title": "Paired Associates Learning: Memory for Word Pairs in Cued Recall",
   "description": "This dataset comprises intracranial electrophysiological recordings and behavioral data from a paired associates learning task conducted across multiple clinical sites. Participants studied word pairs, performed distractor arithmetic tasks, and completed cued recall tests while neural activity was recorded. The dataset includes monopolar and bipolar iEEG recordings with electrode localization information and standardized voltage scaling across multiple recording systems.",
-  "methods_description": "Participants studied 25 lists of word pairs (6 pairs per list) presented visually for 4000 ms each with 1000 ms interstimulus intervals. Encoding was followed by a distractor arithmetic task and cued recall phase where participants had 5000 ms to vocally recall the paired word when cued with one word from each pair. Intracranial electrophysiological recordings were acquired using multiple systems and referenced to either mastoid (monopolar) or paired electrode schemes (bipolar). MNI and Talairach coordinates are provided for electrode locations.",
+  "methods_description": "Participants studied 25 lists of word pairs (6 pairs per list) presented visually for 4000 ms with 1000 ms interstimulus intervals. Each encoding phase was followed by a distractor task (arithmetic problems) and a cued recall phase where participants had 5000 ms to vocally recall the paired word. Intracranial electrophysiological recordings were acquired using multiple systems and referenced either monopolarly (typically mastoid) or bipolarly according to paired electrode schemes. Monopolar recordings should always be re-referenced before analysis. All voltage values have been standardized to volts across recording systems.",
   "license": "CC0",
   "dataset_type": "raw",
   "authors": {
@@ -12,22 +12,33 @@
   },
   "keywords": [
     {
-      "term": "intracranial EEG"
+      "term": "iEEG"
+    },
+    {
+      "term": "Memory",
+      "subject_scheme": "MeSH",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D008568"
     },
     {
       "term": "paired associates learning"
     },
     {
-      "term": "memory encoding"
-    },
-    {
       "term": "cued recall"
     },
     {
-      "term": "electrophysiology"
+      "term": "intracranial electrophysiology"
     },
     {
       "term": "word pairs"
+    },
+    {
+      "term": "memory encoding"
+    },
+    {
+      "term": "distractor tasks"
+    },
+    {
+      "term": "clinical neuroscience"
     }
   ],
   "related_identifiers": [
