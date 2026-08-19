@@ -1,9 +1,9 @@
 {
   "version": "2.0",
-  "pipeline_stage": "enriched",
+  "pipeline_stage": "validated",
   "title": "Paired Associates Learning: Memory for Word Pairs in Cued Recall",
-  "description": "This dataset comprises intracranial electrophysiological recordings and behavioral data from a paired associates learning task conducted across multiple clinical sites. Participants studied word pairs, performed distractor arithmetic tasks, and completed cued recall tests while neural activity was recorded. The dataset includes monopolar and bipolar iEEG recordings with electrode localization information and standardized voltage scaling across multiple recording systems.",
-  "methods_description": "Participants studied 25 lists of word pairs (6 pairs per list) presented visually for 4000 ms with 1000 ms interstimulus intervals. Each encoding phase was followed by a distractor task (arithmetic problems) and a cued recall phase where participants had 5000 ms to vocally recall the paired word. Intracranial electrophysiological recordings were acquired using multiple systems and referenced either monopolarly (typically mastoid) or bipolarly according to paired electrode schemes. Monopolar recordings should always be re-referenced before analysis. All voltage values have been standardized to volts across recording systems.",
+  "description": "This dataset contains intracranial electrophysiological (iEEG) recordings and behavioral event data from patients performing a paired associates memory task, collected across multiple clinical sites in collaboration with the Computational Memory Lab at the University of Pennsylvania. Participants studied pairs of words, completed a distractor arithmetic task, and performed cued recall to test memory for word pairs. The dataset supports research into the neural basis of associative memory encoding and retrieval using intracranial recordings.",
+  "methods_description": "Each session included 25 lists structured as encoding, distractor, and cued recall phases. During encoding, 6 word pairs were presented sequentially for 4000 ms each with a 1000 ms interstimulus interval. During cued recall, one word from each pair was shown and participants had 5000 ms to vocally recall the paired word. iEEG recordings were collected using monopolar and bipolar referencing schemes across multiple recording systems, with voltage values scaled to a common unit (V), and electrode locations annotated with MNI/Talairach coordinates and brain region labels.",
   "license": "CC0",
   "dataset_type": "raw",
   "authors": {
@@ -26,29 +26,17 @@
       "term": "cued recall"
     },
     {
-      "term": "intracranial electrophysiology"
+      "term": "intracranial electrodes"
     },
     {
-      "term": "word pairs"
-    },
-    {
-      "term": "memory encoding"
-    },
-    {
-      "term": "distractor tasks"
-    },
-    {
-      "term": "clinical neuroscience"
+      "term": "Epilepsy",
+      "subject_scheme": "MeSH",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D004827"
     }
   ],
   "related_identifiers": [
     {
       "identifier": "https://github.com/nemarDatasets/on005059",
-      "identifier_type": "URL",
-      "relation_type": "IsDescribedBy"
-    },
-    {
-      "identifier": "https://nemar.org/dataexplorer/detail?dataset_id=on005059",
       "identifier_type": "URL",
       "relation_type": "IsDescribedBy"
     },
@@ -61,6 +49,11 @@
       "identifier": "10.18112/openneuro.ds005059.v1.0.6",
       "identifier_type": "DOI",
       "relation_type": "IsDerivedFrom"
+    },
+    {
+      "identifier": "https://nemar.org/dataset/on005059",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
     }
   ],
   "funding_references": [
