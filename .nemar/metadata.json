@@ -2,8 +2,8 @@
   "version": "2.0",
   "pipeline_stage": "validated",
   "title": "Paired Associates Learning: Memory for Word Pairs in Cued Recall",
-  "description": "This dataset contains intracranial electrophysiological (iEEG) recordings and behavioral event data from patients performing a paired associates memory task, collected across multiple clinical sites in collaboration with the Computational Memory Lab at the University of Pennsylvania. Participants studied pairs of words, completed a distractor arithmetic task, and performed cued recall to test memory for word pairs. The dataset supports research into the neural basis of associative memory encoding and retrieval using intracranial recordings.",
-  "methods_description": "Each session included 25 lists structured as encoding, distractor, and cued recall phases. During encoding, 6 word pairs were presented sequentially for 4000 ms each with a 1000 ms interstimulus interval. During cued recall, one word from each pair was shown and participants had 5000 ms to vocally recall the paired word. iEEG recordings were collected using monopolar and bipolar referencing schemes across multiple recording systems, with voltage values scaled to a common unit (V), and electrode locations annotated with MNI/Talairach coordinates and brain region labels.",
+  "description": "Intracranial EEG and behavioral event data from a paired associates learning task in which participants studied pairs of visually presented words, solved arithmetic distractor problems, and then performed cued recall. Data were collected from clinical sites in collaboration with the Computational Memory Lab at the University of Pennsylvania. Recordings include monopolar and bipolar iEEG with subject-specific electrode montages, MNI/Talairach coordinates, and brain region annotations.",
+  "methods_description": "Each session comprised 25 lists of encoding, distractor, and cued recall. During encoding, 6 word pairs were shown for 4000 ms each with a 1000 ms interstimulus interval. Arithmetic problems served as a distractor. In cued recall, one word from each pair was shown and participants vocally recalled its partner within 5000 ms.",
   "license": "CC0",
   "dataset_type": "raw",
   "authors": {
@@ -15,9 +15,7 @@
       "term": "iEEG"
     },
     {
-      "term": "Memory",
-      "subject_scheme": "MeSH",
-      "value_uri": "http://id.nlm.nih.gov/mesh/D008568"
+      "term": "intracranial EEG"
     },
     {
       "term": "paired associates learning"
@@ -26,12 +24,12 @@
       "term": "cued recall"
     },
     {
-      "term": "intracranial electrodes"
+      "term": "episodic memory"
     },
     {
-      "term": "Epilepsy",
+      "term": "Memory",
       "subject_scheme": "MeSH",
-      "value_uri": "http://id.nlm.nih.gov/mesh/D004827"
+      "value_uri": "http://id.nlm.nih.gov/mesh/D008568"
     }
   ],
   "related_identifiers": [
@@ -70,7 +68,7 @@
     "ieeg"
   ],
   "sizes": [
-    "179.6 GB (285 files)"
+    "167 GB (285 files)"
   ],
   "formats": [
     ".edf",
