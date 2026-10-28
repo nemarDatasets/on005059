@@ -1,3 +1,13 @@
+1.0.7 2026-10-28
+  - Explicitly align the BIDSVersion declaration from 1.7.0 to 1.11.2 for
+    the newer canonical coordinate-token spelling. The original token was
+    valid under BIDS 1.7.0; this is a metadata-standard alignment, not a
+    numerical coordinate transformation. Preserve the prior description
+    and changelog in sourcedata/bids-version-alignment-originals-20261028.tar.gz.
+  - Correct 140 existing iEEGCoordinateSystem tokens from MNI152NLin6ASym to
+    the canonical BIDS spelling MNI152NLin6Asym. No coordinate transforms,
+    units, table values or recordings changed. Original JSON bytes retained
+    under sourcedata/representation-originals-20261028.tar.gz.
 1.0.6 2024-04-23
   - Converted response times from ms to s.
 1.0.5 2024-04-22

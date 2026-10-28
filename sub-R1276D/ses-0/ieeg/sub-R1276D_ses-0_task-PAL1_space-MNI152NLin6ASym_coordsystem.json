@@ -1,1 +1,4 @@
-{"iEEGCoordinateSystem": "MNI152NLin6ASym", "iEEGCoordinateUnits": "mm"}
+{
+  "iEEGCoordinateSystem": "MNI152NLin6Asym",
+  "iEEGCoordinateUnits": "mm"
+}
